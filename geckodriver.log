@@ -1,0 +1,11 @@
+1644543073147	geckodriver	INFO	Listening on 127.0.0.1:58935
+1644543073349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58936" "-foreground" "-no-remote" "-profile" "/var/folders/sd/hy0ty8wx76s1wmz7v_c1nyd80000gn/T/rust_mozprofileWoSf0Q"
+1644543074092	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/sd/hy0ty8wx76s1wmz7v_c1nyd80000gn/T/rust_mozprofileWoSf0Q/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58936/devtools/browser/fc2383ce-66ce-4e78-8ccd-b6e631ff9d0b
+1644543075703	Marionette	INFO	Listening on port 58943
+1644543075743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
